@@ -57,9 +57,10 @@ You can follow same procedure in the official  AWS document [Getting started wit
    
 6. Validate your cluster using by creating by checking nodes and by creating a pod 
    ```sh 
-   kubectl get nodes
    ```
 
+7. metrics
+kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
 
 
 ------- Docker and Minikube install process-----
